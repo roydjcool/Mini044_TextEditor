@@ -1,0 +1,14 @@
+az login
+az webapp up --sku F1 --name txteditor --runtime "PYTHON|3.10"
+git init
+git remote add azure txteditor.azurewebsites.net/txteditor.git
+ls
+cd ./Microsoft/o
+ls
+cd ./Microsoft/
+ls
+cd ./Windows/
+ls
+cd ..
+git remote set-url azure https://github.com/roydjcool/Mini044_TextEditor.git
+git add .
