@@ -74,5 +74,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'txteditor'
-          slot-name: 'Production'
+          # slot-name: 'Production' # Remove this line if deploying to the main slot
+
           
